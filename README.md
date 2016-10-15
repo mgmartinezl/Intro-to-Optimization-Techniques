@@ -1,2 +1,2 @@
-# test-repo
-This is my first repo
+# Optimización
+Ejercicios, tareas y notas de clase
