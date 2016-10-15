@@ -1,0 +1,402 @@
+Domain violation at line 35, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 48, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 49, column 18.
+The scope of index "t" has not been specified.
+Semantic error at line 1.
+The declared constraint "CostoTotal_definition" has not been defined.
+Domain violation at line 50, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 55, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 58, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 91, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 94, column 18.
+The scope of index "t" has not been specified.
+Semantic error at line 127, column 1.
+The identifier "month" has not been declared.
+The mandatory attribute "begin date" is missing from calendar "Meses".
+The mandatory attribute "end date" is missing from calendar "Meses".
+The mandatory attribute "timeslot format" is missing from calendar "Meses".
+Warning at line 131.
+The mandatory attribute "begin date" is missing from calendar "Meses".
+The mandatory attribute "begin date" is missing from calendar "Meses".
+Domain violation at line 145, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 148, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 151, column 18.
+The scope of index "t" has not been specified.
+Domain violation at line 206, column 5.
+The scope of index "t" has not been specified.
+Domain violation at line 207, column 5.
+The scope of index "t" has not been specified.
+Domain violation at line 208, column 11.
+The scope of index "t" has not been specified.
+Domain violation at line 209, column 9.
+The scope of index "t" has not been specified.
+Semantic error at line 209, column 10.
+The keyword "Ord" is not an index.
+Syntax error at line 210, column 1.
+The symbol "ord" is not expected.
+Domain violation at line 221, column 3.
+The scope of index "t" has not been specified.
+Domain violation at line 222, column 3.
+The scope of index "t" has not been specified.
+Domain violation at line 223, column 3.
+The scope of index "t" has not been specified.
+Domain violation at line 224, column 3.
+The scope of index "t" has not been specified.
+Domain violation at line 229, column 8.
+The number of arguments in the parameter "MaxNuevosPracticantesMes" is not correct.
+Syntax error at line 3 in user-defined function section "MainExecution", column 1.
+The symbol "if" is not expected.
+Syntax error at line 3 in user-defined function section "MainExecution", column 1.
+The symbol "if" is not expected.
+Syntax error at line 3 in user-defined function section "MainExecution", column 1.
+The symbol "if" is not expected.
+Syntax error at line 3 in user-defined function section "MainExecution", column 1.
+The symbol "if" is not expected.
+Syntax error at line 3 in user-defined function section "MainExecution", column 1.
+The symbol "if" is not expected.
+Syntax error at line 3 in user-defined function section "MainExecution", column 1.
+The symbol "if" is not expected.
+Syntax error at line 3 in user-defined function section "MainExecution", column 1.
+The symbol "if" is not expected.
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '2' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Generation error at line 1, column 1.
+The empty row BalanceMes1 .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '2' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Generation error at line 1, column 1.
+The empty row BalanceMes1 .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '2' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Generation error at line 1, column 1.
+The empty row BalanceMes1 .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes1".
+The element 'January,2016' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '2' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Generation error at line 1, column 1.
+The empty row BalanceMes1 .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Warning at line 743.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 743.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 747.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 747.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 765.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 765.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 769.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 769.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '2' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Generation error at line 1, column 1.
+The empty row BalanceMes1(January, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(February, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(March, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(April, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(May, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(June, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Warning at line 823.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 823.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 827.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 827.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 831.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 831.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 843.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 843.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 851.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 851.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 855.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 855.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of variable "CostoTotal".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '2' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "BalanceMes2".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Warning at line 1 in the definition of constraint "HorasMes1".
+The element '1' is not in the calendar "Meses".
+Generation error at line 1, column 1.
+The empty row BalanceMes1(January, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(February, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(March, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(April, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(May, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Generation error at line 1, column 1.
+The empty row BalanceMes1(June, 2016) .. 0 = 62 is infeasible, as tolerance the option "Bound_Tolerance" is used with value 1e-008.
+Syntax error.
+', ]' is expected.
+Syntax error at line 906, column 2.
+The symbol "=" is not expected.
+Warning at line 908.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Syntax error at line 908, column 88.
+', ]' is expected.
+Syntax error at line 909, column 2.
+The symbol "=" is not expected.
+Warning at line 911.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 915.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 915.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 928.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 928.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 936.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 936.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 940.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 940.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 995.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 995.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 999.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 999.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1011.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1011.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1019.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1019.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1023.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1023.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1 in user-defined function section "MainExecution".
+The rows "BalanceMes2(5)" and "BalanceMes2(6)" are equal in the generated mathematical program "CostoMinimoTotal".  This may lead to non-unique shadow prices.  For more information regarding potential causes and consequences, see the help associated with the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The rows "BalanceMes2(3)" and "BalanceMes2(6)" are equal in the generated mathematical program "CostoMinimoTotal".  This may lead to non-unique shadow prices.  For more information regarding potential causes and consequences, see the help associated with the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The rows "BalanceMes2(1)" and "BalanceMes2(3)" are equal in the generated mathematical program "CostoMinimoTotal".  This may lead to non-unique shadow prices.  For more information regarding potential causes and consequences, see the help associated with the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 10 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 1073.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1073.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1085.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1085.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1093.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1093.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1097.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1097.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1 in user-defined function section "MainExecution".
+The rows "BalanceMes1(2)" and "BalanceMes1(3)" are equal in the generated mathematical program "CostoMinimoTotal".  This may lead to non-unique shadow prices.  For more information regarding potential causes and consequences, see the help associated with the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The rows "BalanceMes1(3)" and "BalanceMes1(4)" are equal in the generated mathematical program "CostoMinimoTotal".  This may lead to non-unique shadow prices.  For more information regarding potential causes and consequences, see the help associated with the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The rows "BalanceMes1(4)" and "BalanceMes1(5)" are equal in the generated mathematical program "CostoMinimoTotal".  This may lead to non-unique shadow prices.  For more information regarding potential causes and consequences, see the help associated with the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 5 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 1147.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1147.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1159.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1159.
+The definition of the constraint "HorasMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1167.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1167.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1171.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1171.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1241.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1241.
+The definition of the constraint "BalanceMes2" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1245.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1245.
+The definition of the constraint "BalanceMes1" does not depend on the index "t", see also the option "Warning_unused_index".
+Warning at line 1 in user-defined function section "MainExecution".
+The rows "HorasMes1(1)" and "HorasMeses(1)" are equal in the generated mathematical program "CostoMinimoTotal".  This may lead to non-unique shadow prices.  For more information regarding potential causes and consequences, see the help associated with the option "Warning_duplicate_row".

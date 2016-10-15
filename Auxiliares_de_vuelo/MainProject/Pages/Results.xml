@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2016-10-04 00:11:34">
+	<PageEditSize Type="Inherited" />
+	<ProjectUUID>72C02FE7-CFB1-471E-ACC2-D8AB2A3270FC</ProjectUUID>
+	<TemplatesTabOrderPosition>1</TemplatesTabOrderPosition>
+	<Background Inherited="true" />
+	<PageObject Type="Table">
+		<Location top="48" left="90" bottom="192" right="282" />
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<RowIndentation>3</RowIndentation>
+		<ExplicitIdentifier>
+			<Identifier>X( t )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<NumberFormat Width="4" Decimals="0" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Y( t )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<NumberFormat Width="3" Decimals="0" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>CostoTotal</Identifier>
+			<FirstColumn>0</FirstColumn>
+			<NumberFormat Width="8" Decimals="0" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Bar Chart">
+		<Location top="48" left="306" bottom="396" right="726" />
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<ColorScheme Number="0" />
+		<Title>true</Title>
+		<Legend>true</Legend>
+		<Y-Labels>true</Y-Labels>
+		<X-Labels>true</X-Labels>
+		<HorizontalGridLines>true</HorizontalGridLines>
+		<StatusLine>true</StatusLine>
+		<ExplicitIdentifier>
+			<Identifier>X( t )</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Y( t )</Identifier>
+		</ExplicitIdentifier>
+		<FillWithColor>true</FillWithColor>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>CostoTotal</Symbol>
+			<Symbol>Y</Symbol>
+			<Symbol>X</Symbol>
+			<Symbol>t</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

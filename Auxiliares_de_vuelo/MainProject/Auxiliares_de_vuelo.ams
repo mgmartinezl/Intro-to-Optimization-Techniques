@@ -1,0 +1,108 @@
+## ams_version=1.0
+
+Model Main_Auxiliares_de_vuelo {
+    Constraint BalanceMeses {
+        IndexDomain: t|ord(t)>=3;
+        Definition: X(t)=X(t-1)-Renuncias(t-1)+Y(t-2);
+    }
+    Constraint Contrataciones {
+        IndexDomain: t;
+        Definition: Y(t)<= MaxNuevosPracticantesMes(t);
+    }
+    Constraint HorasMes1 {
+        IndexDomain: t|ord(t)=1;
+        Definition: HorasMaxAuxiliarMes(t)*X(t)+HorasMaxPracticanteMes(t)*Y(t)>=HorasRequeridas(t);
+    }
+    Constraint HorasMeses {
+        IndexDomain: t|ord(t)>=2;
+        Definition: HorasMaxAuxiliarMes(t)*X(t)+HorasMaxPracticanteMes(t)*(Y(t)+Y(t-1))>=HorasRequeridas(t);
+    }
+    Constraint BalanceMes2 {
+        IndexDomain: t|ord(t)=2;
+        Definition: X(t)=X(t-1)-Renuncias(t-1);
+    }
+    Constraint BalanceMes1 {
+        IndexDomain: t|ord(t)=1;
+        Definition: X(t)=62;
+    }
+    Variable CostoTotal {
+        Range: free;
+        Definition: CostoMesAuxiliar('1')*X('1') + CostoMesPracticante('1')*Y('1')+sum[t|ord(t)>=2, CostoMesAuxiliar(t)*X(t) + CostoMesPracticante(t)*(Y(t)+Y(t-1))];
+    }
+    MathematicalProgram CostoMinimoTotal {
+        Objective: CostoTotal;
+        Direction: minimize;
+        Constraints: AllConstraints;
+        Variables: AllVariables;
+        Type: Automatic;
+    }
+    Variable Y {
+        IndexDomain: t;
+        Range: integer;
+    }
+    Variable X {
+        IndexDomain: t;
+        Range: integer;
+    }
+    Parameter CostoMesAuxiliar {
+        IndexDomain: t;
+    }
+    Parameter CostoMesPracticante {
+        IndexDomain: t;
+    }
+    Parameter HorasMaxAuxiliarMes {
+        IndexDomain: t;
+    }
+    Parameter HorasMaxPracticanteMes {
+        IndexDomain: t;
+    }
+    Parameter MaxNuevosPracticantesMes {
+        IndexDomain: t;
+    }
+    Parameter HorasRequeridas {
+        IndexDomain: t;
+    }
+    Parameter Renuncias {
+        IndexDomain: t;
+    }
+    Set Meses {
+        Index: t;
+        Definition: data { 1, 2, 3, 4, 5, 6 };
+    }
+    Quantity SI_Time_Duration {
+        BaseUnit: month;
+    }
+    Procedure MainInitialization {
+        Comment: "Add initialization statements here that do NOT require any library being initialized already.";
+    }
+    Procedure PostMainInitialization {
+        Comment: {
+            "Add initialization statements here that require that the libraries are already initialized properly,
+            or add statements that require the Data Management module to be initialized."
+        }
+    }
+    Procedure MainExecution {
+        Body: solve CostoMinimoTotal;
+    }
+    Procedure PreMainTermination {
+        Body: {
+            return DataManagementExit();
+        }
+        Comment: {
+            "Add termination statements here that require all libraries to be still alive.
+            Return 1 if you allow the termination sequence to continue.
+            Return 0 if you want to cancel the termination sequence."
+        }
+    }
+    Procedure MainTermination {
+        Body: {
+            return 1;
+        }
+        Comment: {
+            "Add termination statements here that do not require all libraries to be still alive.
+            Return 1 to allow the termination sequence to continue.
+            Return 0 if you want to cancel the termination sequence.
+            It is recommended to only use the procedure PreMainTermination to cancel the termination sequence and let this procedure always return 1."
+        }
+    }
+}
