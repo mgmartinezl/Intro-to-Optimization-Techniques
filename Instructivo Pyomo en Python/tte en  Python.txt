@@ -1,0 +1,68 @@
+#Importar el módulo pyomo
+
+from pyomo.environ import *
+
+Crear el modelo
+
+model = ConcreteModel()
+
+#Crear los conjuntos
+
+model.i = Set(initialize=['SF','H'], doc='Servidores')
+model.j = Set(initialize=['CE','C','CO'], doc='Áreas geográficas')
+
+#Vectores
+
+model.S = Param(model.i, initialize={'SF':350,'H':600}, doc='Cap serv i')
+model.D = Param(model.j, initialize={'CE':325,'C':300,'CO':275},
+doc='Demanda del área j')
+
+#Matrices
+
+tablac = {
+    ('SF', 'CE') : 225,
+    ('SF', 'C')  : 153,
+    ('SF', 'CO') : 162,
+    ('H',  'CE') : 225,  
+    ('H',  'C')  : 162,
+    ('H',  'CO') : 126,
+    }
+
+model.C = Param(model.i, model.j, initialize=tablac,
+doc='Costo envío de un TB al servidor i desde el área j')
+
+#Variables
+
+model.x = Var(model.i, model.j, bounds=(0.0,None),
+doc='TB que se atenderán en el servidor i del área j')
+
+#Restricción de oferta
+
+def supply_rule(model, i):
+    return sum(model.x[i,j] for j in model.j) <= model.S[i]
+model.supply = Constraint(model.i, rule=supply_rule,
+doc='No exceder la capacidad de cada servidor i')
+
+#Restricción de demanda
+
+def demand_rule(model, j):
+    return sum(model.x[i,j] for i in model.i) >= model.D[j]
+model.demand = Constraint(model.j, rule=demand_rule,
+doc='Satisfacer la demanda de cada área j')
+
+#Función objetivo
+
+def objective_rule(model):
+    return sum(model.C[i,j]*model.x[i,j] for i in model.i for j in model.j)
+model.objective = Objective(rule=objective_rule, sense=minimize,
+doc='Función objetivo')
+
+#Ejecución de la optimización. Ver variables de decisión y valor de la función objetivo
+
+instance = model
+opt = SolverFactory("cbc")
+solver_manager = SolverManagerFactory('neos')
+results = solver_manager.solve(instance, opt=opt)
+results.write()
+model.x.display()
+model.objective.display()
