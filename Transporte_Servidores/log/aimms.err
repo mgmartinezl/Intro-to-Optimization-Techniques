@@ -1,0 +1,4 @@
+Semantic error at line 34, column 24.
+The constraint "Demand" without a suffix cannot be used inside the definition of a constraint.
+Semantic error at line 36, column 24.
+The constraint "Demand" without a suffix cannot be used inside the definition of a constraint.
